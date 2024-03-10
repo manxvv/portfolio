@@ -28,19 +28,21 @@ body {
 
 }
 
+
 .menu-socialleft {
     gap: 30px;
     /* flex-direction: column; */
-    /* border: 1px solid#575757; */
+    /* border: 1px solid #575757; */
     background-color: #212529;
     border-radius: 30px;
     padding: 0px 98px;
     width: -10px;
     align-items: center;
     /* position: fixed; */
-    /* margin-left: 1350px; */
+    margin-left: -11px;
     font-size: 30px;
 }
+
 .right{
     margin-top: 160px;
 }
@@ -499,15 +501,15 @@ margin-bottom: 50px;
 
 @media (min-width:300px) and (max-width:1300px) {
 
-  .sidebar { 
-    width: 60vh;
+
+.sidebar {
+    width: 71vh;
     margin-top: 6vh;
-    height: 89vh;
+    height: 96vh;
     position: static;
     margin-left: 0px;
     border-radius: 30px;
     border: 1px solid #575757;
-
 }
 
 .skills:hover{
@@ -678,11 +680,13 @@ margin-left: 0px;}
   font-size: 30px;
 }
 
-.wrapper p {
-  margin-top: 20px;
-  margin-right: 0px;
-  color: #a5a5a5;
+
+    .wrapper p {
+    margin-top: 20px;
+    margin-right: 40px;
+    color: #a5a5a5;
 }
+
 
 .skillicon {
   position: absolute;
