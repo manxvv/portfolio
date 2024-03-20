@@ -44,15 +44,13 @@ body {
 }
 
 .right{
-  margin-top: 160px;
+  margin-top: 25vh;
 }
 .right-scroll{
-  margin-left: 300px;
+  margin-left: 50vh;
 }
 
-.right-scroll2{
-  margin-left: 430px;
-}
+
 .exp{
   column-gap: 70px;
   margin-left: 85px;
@@ -79,7 +77,7 @@ ul li a:active{
 }
 
 .sidebar { 
-  margin-left: -90px;
+  margin-left: -13vh;
   position: fixed;
   width: 60vh;
   margin-top: 3vh;
