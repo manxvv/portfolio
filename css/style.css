@@ -22,7 +22,7 @@ body {
   align-items: center;
   margin: 10px 20px;
   position: fixed;
-  margin-left: 1350px;
+  margin-left: 1250px;
   font-size: 20px;
 
 
@@ -39,7 +39,7 @@ body {
   width: -10px;
   align-items: center;
   /* position: fixed; */
-  margin-left: 11px;
+  justify-content: center;
   font-size: 30px;
 }
 
@@ -47,7 +47,7 @@ body {
   margin-top: 160px;
 }
 .right-scroll{
-  margin-left: 360px;
+  margin-left: 300px;
 }
 
 .right-scroll2{
@@ -82,10 +82,10 @@ ul li a:active{
   margin-left: -90px;
   position: fixed;
   width: 60vh;
-  margin-top: 6vh;
-  height: 89vh;
+  margin-top: 3vh;
   border-radius: 30px;
   border: 1px solid #575757;
+  padding: 10px 10px;
 
 }
 
@@ -155,7 +155,7 @@ p {
   margin-left: 15px;
 }
 
-.sidebar p {
+.para1 {
   float: inline-end;
   margin-top: -60px;
   text-align: end;
@@ -164,10 +164,12 @@ p {
 }
 
 
-.box{ width: 250px;
+
+
+.box{ width: 200px;
   margin-left: 75px;
   margin-top: 25px;
-  height: 250px;
+  height: 200px;
   box-shadow: 0 20px 5px  5px rgba(0, 0, 0, 0.2);
   animation: animate 20s ease-in-out infinite;
   transition: all 1s ease-in-out;
@@ -189,10 +191,10 @@ p {
   text-align: center;
 }
 
-.wrapper p{
+.para2 {
   margin-top:20px;
-  margin-right: 79px;
   color: #a5a5a5;
+  text-align: center;
 }
 
 .button {
@@ -256,7 +258,6 @@ p {
   margin-right: 65px;
   font-size: 45px;
   margin-top: 40px;
-  /* width: 40px; */
   color: #28e98c;
   
 }
@@ -401,23 +402,23 @@ color: #ffffff;
 
 .adv-inner {
   border: 2px solid #565656;
-  border-radius: 85px;
-  padding: 54px 0 48px 0;
-  width: 175px;
+  border-radius: 100px;
+  padding: 30px 0 30px 0;
+  width: 150px;
   margin-bottom: 20px;
   transition: .3s;
-
 }
 
 .adv-inner:hover {
   border: 2px solid #28e98c;
-  border-radius: 85px;
-  padding: 54px 0 48px 0;
-  width: 175px;
+  border-radius: 100px;
+  padding: 30px 0 30px 0;
+  width: 150px;
   margin-bottom: 20px;
   transition: .3s;
-
 }
+
+
 .adv-inner img    { display: block;
 margin: auto auto 10px auto;
 width: 50px;
@@ -502,14 +503,14 @@ opacity: 1;
 @media (min-width:300px) and (max-width:1300px) {
 
 
-  .sidebar {
-    width: 71vh;
-    margin-top: 6vh;
-    height: 112vh;
-    position: static;
-    margin-left: 0px;
-    border-radius: 30px;
-    border: 1px solid #575757;}
+.sidebar {
+  margin-top: 6vh;
+  position: static;
+  margin-left: 0px;
+  padding: 10px 10px;
+  border-radius: 30px;
+  border: 1px solid #575757;
+}
 
 .skills:hover{
 border: 1px solid #28e98c;
@@ -651,7 +652,7 @@ margin-bottom: 20px;
 
 .box {
 width: 250px;
-margin-left: 20px;
+margin-left: 0px;
 margin-top: 25px;
 height: 250px;
 box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
@@ -667,22 +668,19 @@ text-align: center;
 
 .menu-socialleft {
 gap: 30px;
-/* flex-direction: column; */
-/* border: 1px solid#575757; */
 background-color: #212529;
 border-radius: 30px;
 padding: 0px 98px;
 width: -10px;
 align-items: center;
-/* position: fixed; */
-margin-left: -57px;
+margin-left: _11px;
 font-size: 30px;
 }
 
 
   .wrapper p {
   margin-top: 20px;
-  margin-right: 25px;
+  margin-right: 40px;
   color: #a5a5a5;
 }
 
