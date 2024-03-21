@@ -22,7 +22,7 @@ body {
   align-items: center;
   margin: 10px 20px;
   position: fixed;
-  margin-left: 1250px;
+  margin-left: 194vh;
   font-size: 20px;
 
 
@@ -80,7 +80,7 @@ ul li a:active{
   margin-left: -13vh;
   position: fixed;
   width: 60vh;
-  margin-top: 3vh;
+  margin-top: 10vh;
   border-radius: 30px;
   border: 1px solid #575757;
   padding: 10px 10px;
