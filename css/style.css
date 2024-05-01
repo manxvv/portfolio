@@ -496,13 +496,7 @@ opacity: 1;
   margin-bottom: 50px;
   margin-left: 0px;
 }
-
- 
-}
-
-@media (min-width:300px) and (max-width:1300px) {
-
-  .box{     width: 30vh;
+ .box{     width: 30vh;
     margin-left: 13vh;
     margin-top: 25px;
     height: 30vh;
@@ -510,6 +504,12 @@ opacity: 1;
   animation: animate 20s ease-in-out infinite;
   transition: all 1s ease-in-out;
 }
+ 
+}
+
+@media (min-width:300px) and (max-width:1300px) {
+
+ 
 }
 
 .sidebar {
